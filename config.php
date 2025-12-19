@@ -5,10 +5,10 @@
  */
 
 // Database credentials
-define('DB_HOST', 'node71793-quizgaje666.user.cloudjkt01.com');
+define('DB_HOST', 'YOUR_LINK');
 define('DB_USER', 'root');
-define('DB_PASS', 'RBXgam54181');
-define('DB_NAME', 'quiz_gaje_db');
+define('DB_PASS', 'YOUR_PASSWORD');
+define('DB_NAME', 'YOUR_DB_NAME');
 
 // Establish connection
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
